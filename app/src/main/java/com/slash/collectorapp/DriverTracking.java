@@ -310,7 +310,7 @@ public class DriverTracking extends FragmentActivity implements OnMapReadyCallba
 
     @Override
     public void onLocationChanged(Location location) {
-        mLastLocation = location;
+        Common.mLastLocation = location;
         displayLocation();
     }
 
